@@ -19,6 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
+  ruby,
+  cpp,
+  python,
   qualcomm,
   carrent,
   jobit,
@@ -70,6 +73,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -80,6 +87,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "CPP",
+    icon: cpp,
   },
   {
     name: "Tailwind CSS",
@@ -94,8 +105,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Ruby",
+    icon: ruby,
   },
   {
     name: "git",
