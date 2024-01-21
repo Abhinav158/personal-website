@@ -30,9 +30,12 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import qualcomm from "./company/qualcomm.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import metaverse from "./projects/metaverse.png";
+import pricepatrol from "./projects/price-patrol.png";
+import quillcraft from "./projects/quillcraft.png";
+
+import potnis from "./people/potnis.png";
+import vinamra from "./people/vinamra.png";
 
 export {
   logo,
@@ -64,7 +67,9 @@ export {
   starbucks,
   tesla,
   qualcomm,
-  carrent,
-  jobit,
-  tripguide,
+  metaverse,
+  pricepatrol,
+  quillcraft,
+  potnis,
+  vinamra,
 };

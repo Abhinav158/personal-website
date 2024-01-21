@@ -23,10 +23,11 @@ import {
   cpp,
   python,
   qualcomm,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  metaverse,
+  pricepatrol,
+  quillcraft,
+  potnis,
+  vinamra,
 } from "../assets";
 
 export const navLinks = [
@@ -141,7 +142,7 @@ const testimonials = [
     name: "Yash Potnis",
     designation: "Management Trainee",
     company: "ICICI Bank",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: potnis,
   },
   {
     testimonial:
@@ -149,51 +150,43 @@ const testimonials = [
     name: "Vinamra Parakh",
     designation: "Software Engineering Intern",
     company: "Amazon",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: vinamra,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Metaverse Madness",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Immerse yourself in the essence of the metaverse through visually stunning aesthetics, paving the way for a captivating virtual experience without any functionality compromises.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: metaverse,
+    source_code_link: "https://github.com/Abhinav158/Metaverse",
   },
   {
-    name: "Job IT",
+    name: "Price Patrol",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Revolutionizing your shopping experience - Enter an Amazon product link, and this will tirelessly monitor its price, sending you instant alerts when it drops so you never miss out on the best deals!",
     tags: [
       {
-        name: "react",
+        name: "web-scraping",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react",
         color: "green-text-gradient",
       },
       {
@@ -201,20 +194,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pricepatrol,
+    source_code_link: "https://github.com/Abhinav158/PricePatrol.git",
   },
   {
-    name: "Trip Guide",
+    name: "QuillCraft",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Elevate your reading experience - explore a curated selection of trending and featured blogs, offering a seamless platform to discover captivating content at your fingertips.",
     tags: [
       {
-        name: "nextjs",
+        name: "graphql",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
@@ -222,8 +215,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: quillcraft,
+    source_code_link: "https://github.com/Abhinav158/quillcraft.git",
   },
 ];
 
