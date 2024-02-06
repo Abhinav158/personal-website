@@ -26,6 +26,7 @@ import {
   metaverse,
   pricepatrol,
   quillcraft,
+  flexflow,
   potnis,
   vinamra,
 } from "../assets";
@@ -217,6 +218,24 @@ const projects = [
     ],
     image: quillcraft,
     source_code_link: "https://github.com/Abhinav158/quillcraft.git",
+  },
+  {
+    name: "FlexFlow",
+    description:
+      "Your personalized journey to a fitter and healthier you! Track your workouts with ease, log every step, and see your progress unfold in sleek, motivating visuals.",
+    tags: [
+      {
+        name: "ruby-on-rails",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "web-development",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: flexflow,
+    source_code_link: "https://github.com/Abhinav158/activity-tracker",
   },
 ];
 

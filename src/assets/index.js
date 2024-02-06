@@ -33,6 +33,7 @@ import qualcomm from "./company/qualcomm.png";
 import metaverse from "./projects/metaverse.png";
 import pricepatrol from "./projects/price-patrol.png";
 import quillcraft from "./projects/quillcraft.png";
+import flexflow from './projects/flexflow.png';
 
 import potnis from "./people/potnis.png";
 import vinamra from "./people/vinamra.png";
@@ -70,6 +71,7 @@ export {
   metaverse,
   pricepatrol,
   quillcraft,
+  flexflow,
   potnis,
   vinamra,
 };
