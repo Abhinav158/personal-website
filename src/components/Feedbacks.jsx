@@ -44,8 +44,20 @@ const FeedbackCard = ({
 );
 
 const Feedbacks = () => {
+  const testimonialCount = testimonials.length;
+  let containerClass = `mt-12 bg-black-100 rounded-[20px]`;
+  let innerContainerClass = `${styles.paddingX} flex flex-wrap gap-7`;
+
+  if (testimonialCount === 1) {
+    containerClass += " w-full";
+    innerContainerClass += " justify-center";
+  } else if (testimonialCount === 2) {
+    containerClass += " w-full";
+    innerContainerClass += " justify-center";
+  }
+
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+    <div className={containerClass}>
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
@@ -54,7 +66,7 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+      <div className={`-mt-20 pb-14 ${innerContainerClass}`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}

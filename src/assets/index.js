@@ -36,6 +36,7 @@ import pricepatrol from "./projects/price-patrol.png";
 import quillcraft from "./projects/quillcraft.png";
 import flexflow from './projects/flexflow.png';
 
+import aparna from "./people/aparna.png";
 import potnis from "./people/potnis.png";
 import vinamra from "./people/vinamra.png";
 
@@ -74,6 +75,7 @@ export {
   pricepatrol,
   quillcraft,
   flexflow,
+  aparna,
   potnis,
   vinamra,
 };

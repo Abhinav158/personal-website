@@ -28,6 +28,7 @@ import {
   pricepatrol,
   quillcraft,
   flexflow,
+  aparna,
   potnis,
   vinamra,
 } from "../assets";
@@ -49,7 +50,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Frontend Developer",
     icon: web,
   },
   {
@@ -57,7 +58,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Frontend Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
@@ -153,7 +154,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "When Abhinav puts his mind into anything, the outcomes are always fantastic ! I have seen him at work and the dedication he has is commendable ! Plus, he is an Awesome Drummer !",
+      "Working with Abhinav has been an absolute pleasure. His work ethic and problem solving skills are outstanding. He consistently delivers exceptional results and is a valuable team player. I highly recommend him for any project requiring innovation and dedication",
+    name: "Aparna P Dinesh",
+    designation: "Associate Professor in Electronics and Communication",
+    company: "NITK",
+    image: aparna,
+  },
+  {
+    testimonial:
+      "When Abhinav puts his mind into anything, the outcomes are always fantastic! I have seen him at work and the dedication he has is commendable ! Plus, he is an Awesome Drummer!",
     name: "Yash Potnis",
     designation: "Management Trainee",
     company: "ICICI Bank",
@@ -167,6 +176,7 @@ const testimonials = [
     company: "Amazon",
     image: vinamra,
   },
+ 
 ];
 
 const projects = [
