@@ -29,6 +29,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import qualcomm from "./company/qualcomm.png";
+import iris from './company/iris.png';
 
 import metaverse from "./projects/metaverse.png";
 import pricepatrol from "./projects/price-patrol.png";
@@ -68,6 +69,7 @@ export {
   starbucks,
   tesla,
   qualcomm,
+  iris,
   metaverse,
   pricepatrol,
   quillcraft,
