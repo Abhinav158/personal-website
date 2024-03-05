@@ -1,11 +1,14 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
+
+// Functionality to allow users to send me emails 
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -18,8 +21,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target
 
     setForm({
       ...form,
@@ -31,18 +33,23 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // Public Key: 7PtnAkxR2iWeO-zT-
+    // Template ID: template_l3qf2mc
+    // Service ID: service_dstykae
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_dstykae',
+        'template_l3qf2mc',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Abhinav Raghunandan",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "raghunandan.abhinav@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '7PtnAkxR2iWeO-zT-'
+        
       )
       .then(
         () => {
@@ -65,9 +72,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -87,7 +92,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -109,7 +114,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
