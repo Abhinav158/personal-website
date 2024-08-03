@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   ruby,
   cpp,
   python,
@@ -154,7 +150,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Working with Abhinav has been an absolute pleasure. His work ethic and problem solving skills are outstanding. He consistently delivers exceptional results and is a valuable team player. I highly recommend him for any project requiring innovation and dedication",
+      "Watching Abhinav work has been an absolute pleasure. I highly recommend him for any project requiring innovation and dedication!",
     name: "Aparna P Dinesh",
     designation: "Associate Professor in Electronics and Communication",
     company: "NITK",
@@ -175,8 +171,7 @@ const testimonials = [
     designation: "Software Engineering Intern",
     company: "Amazon",
     image: vinamra,
-  },
- 
+  }, 
 ];
 
 const projects = [
