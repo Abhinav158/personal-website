@@ -20,6 +20,7 @@ import {
   python,
   qualcomm,
   iris,
+  irisproject,
   metaverse,
   pricepatrol,
   quillcraft,
@@ -188,6 +189,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "IRIS Modules",
+    description:
+      "Implemented a course domains module for the college administration along with a credit tracker module which is currently being used by 3000+ students",
+    tags: [
+      {
+        name: "ruby-on-rails",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "software-dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: irisproject,
+    deployed_site_link: "https://iris.nitk.ac.in/hrms/",
+  },
+  {
     name: "Metaverse Madness",
     description:
       "Immerse yourself in the essence of the metaverse through visually stunning aesthetics, paving the way for a captivating virtual experience without any functionality compromises.",
@@ -207,6 +229,7 @@ const projects = [
     ],
     image: metaverse,
     source_code_link: "https://github.com/Abhinav158/Metaverse",
+    deployed_site_link: "https://metaverse-abhinav.netlify.app/",
   },
   {
     name: "Price Patrol",
