@@ -47,16 +47,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Frontend Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "Machine Learning Engineer",
-    icon: mobile,
+    title: "Full Stack Web Developer",
+    icon: backend,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Deep Learning Enthusiast",
+    icon: mobile,
   },
   {
     title: "Musician",
@@ -121,15 +121,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineering Intern",
-    company_name: "Qualcomm India",
+    title: "Software Engineer",
+    company_name: "Qualcomm",
     icon: qualcomm,
     iconBg: "#FFF",
-    date: "May 2023 - July 2023",
+    date: "July 2024 - Present",
     points: [
-      "Designed and implemented a Decision Tree Classifier model to improve the performance of the GPU",
-      "Took a lead role in the development of automated scripts specifically designed to collect GPU Scope data from user-provided files, ultimately resulting in a more efficient and less manual-intensive data processing pipeline",
-      "Conducted comprehensive testing and validation of scripts to ensure project reliability and collaboration",
+      "Currently in my Training Period working with WLAN technologies and Linux Device Drivers",
     ],
   },
   {
@@ -145,6 +143,19 @@ const experiences = [
       "Developed a new Course Domain module, allowing for assignment of domains to courses for better categorization and to aid in identifying students' weak areas.",
     ],
   },
+  {
+    title: "Software Engineering Intern",
+    company_name: "Qualcomm",
+    icon: qualcomm,
+    iconBg: "#FFF",
+    date: "May 2023 - July 2023",
+    points: [
+      "Designed and implemented a Decision Tree Classifier model to improve the performance of the GPU",
+      "Took a lead role in the development of automated scripts specifically designed to collect GPU Scope data from user-provided files, ultimately resulting in a more efficient and less manual-intensive data processing pipeline",
+      "Conducted comprehensive testing and validation of scripts to ensure project reliability and collaboration",
+    ],
+  },
+  
   
 ];
 
