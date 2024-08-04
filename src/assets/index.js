@@ -1,3 +1,4 @@
+// General imports
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -7,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// Tech Stack imports 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -24,22 +26,23 @@ import cpp from "./tech/cpp.png"
 import python from './tech/python.png';
 import ruby from './tech/ruby.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// Work Experience imports
 import qualcomm from "./company/qualcomm.png";
 import iris from './company/iris.png';
 
+// Project Snapshot imports
 import metaverse from "./projects/metaverse.png";
 import pricepatrol from "./projects/price-patrol.png";
 import quillcraft from "./projects/quillcraft.png";
 import flexflow from './projects/flexflow.png';
+import neuroflyer from './projects/neuroflyer.png';
 
+// Testimonial imports
 import aparna from "./people/aparna.png";
 import potnis from "./people/potnis.png";
 import vinamra from "./people/vinamra.png";
 
+// Export everything above 
 export {
   logo,
   backend,
@@ -64,16 +67,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   cpp,
-  shopify,
-  starbucks,
-  tesla,
   qualcomm,
   iris,
   metaverse,
   pricepatrol,
   quillcraft,
+  neuroflyer,
   flexflow,
   aparna,
   potnis,
