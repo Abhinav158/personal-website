@@ -23,6 +23,7 @@ import {
   metaverse,
   pricepatrol,
   quillcraft,
+  neuroflyer,
   flexflow,
   aparna,
   potnis,
@@ -255,6 +256,28 @@ const projects = [
     ],
     image: flexflow,
     source_code_link: "https://github.com/Abhinav158/activity-tracker",
+  },
+  {
+    name: "NeuroFlyer",
+    description:
+      "Dive into the excitement as an AI learns to conquer Flappy Bird, blending engaging gameplay with impressive neural evolution!",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pygame",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NEAT_Algorithm",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: neuroflyer,
+    source_code_link: "https://github.com/Abhinav158/NeuroFlyer",
   },
 ];
 

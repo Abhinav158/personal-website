@@ -35,6 +35,7 @@ import metaverse from "./projects/metaverse.png";
 import pricepatrol from "./projects/price-patrol.png";
 import quillcraft from "./projects/quillcraft.png";
 import flexflow from './projects/flexflow.png';
+import neuroflyer from './projects/neuroflyer.png';
 
 // Testimonial imports
 import aparna from "./people/aparna.png";
@@ -72,6 +73,7 @@ export {
   metaverse,
   pricepatrol,
   quillcraft,
+  neuroflyer,
   flexflow,
   aparna,
   potnis,
