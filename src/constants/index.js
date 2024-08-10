@@ -24,6 +24,7 @@ import {
   metaverse,
   pricepatrol,
   quillcraft,
+  chessengine,
   neuroflyer,
   flexflow,
   aparna,
@@ -305,13 +306,35 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "NEAT_Algorithm",
+        name: "NEAT-algorithm",
         color: "pink-text-gradient",
       },
       
     ],
     image: neuroflyer,
     source_code_link: "https://github.com/Abhinav158/NeuroFlyer",
+  },
+  {
+    name: "Chess Engine",
+    description:
+      "Analyze moves and explore strategies in the complex game of chess using the Monte Carlo Tree Search algorithm inspired by AlphaZero",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MCTS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reinforcement-learning",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: chessengine,
+    source_code_link: "https://github.com/Abhinav158/chess-engine",
   },
 ];
 

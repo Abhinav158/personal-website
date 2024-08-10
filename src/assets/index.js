@@ -38,6 +38,7 @@ import pricepatrol from "./projects/price-patrol.png";
 import quillcraft from "./projects/quillcraft.png";
 import flexflow from './projects/flexflow.png';
 import neuroflyer from './projects/neuroflyer.png';
+import chessengine from './projects/chess-engine.png'
 
 // Testimonial imports
 import aparna from "./people/aparna.png";
@@ -78,6 +79,7 @@ export {
   pricepatrol,
   quillcraft,
   neuroflyer,
+  chessengine,
   flexflow,
   aparna,
   potnis,
