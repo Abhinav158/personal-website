@@ -13,6 +13,11 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  const isGrouped = experience.roles && experience.roles.length > 0;
+  const entries = isGrouped
+    ? experience.roles
+    : [{ title: experience.title, date: experience.date, points: experience.points }];
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -33,25 +38,36 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
           {experience.company_name}
         </p>
-      </div>
-
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+        {entries.map((role, roleIndex) => (
+          <div
+            key={`role-${roleIndex}`}
+            className={roleIndex > 0 ? "mt-6 pt-6 border-t border-white/10" : "mt-2"}
           >
-            {point}
-          </li>
+            <div className='flex flex-wrap items-baseline gap-2'>
+              <h3 className='text-white text-[24px] font-bold'>{role.title}</h3>
+              <span className='text-secondary text-[14px] font-medium'>
+                {role.date}
+              </span>
+            </div>
+            <ul className='mt-5 list-disc ml-5 space-y-2'>
+              {role.points.map((point, index) => (
+                <li
+                  key={`experience-point-${roleIndex}-${index}`}
+                  className='text-white-100 text-[14px] pl-1 tracking-wider'
+                >
+                  {point}
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
+      </div>
     </VerticalTimelineElement>
   );
 };

@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a software developer with experience in Python, JavaScript and Ruby, 
-        with expertise in frameworks like React, Django and Ruby on Rails. I enjoy working 
-        in the field of Web Development and Artificial Intelligence. 
-        I'm a quick learner and collaborate closely with clients to
+        I'm a software engineer at Qualcomm where I work with the next generation of
+        Wi-Fi Access points and Linux Device Drivers.
+        I enjoy working in areas of Wireless Communication, Web Development, AI and Machine Learning. 
+        I'm a strong learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life! 😉
       </motion.p>

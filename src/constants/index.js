@@ -123,13 +123,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
     company_name: "Qualcomm",
     icon: qualcomm,
     iconBg: "#FFF",
-    date: "July 2024 - Present",
-    points: [
-      "Currently in my Training Period working with WLAN technologies and Linux Device Drivers",
+    date: "July 2024 - April 2026",
+    roles: [
+      {
+        title: "Software Engineer",
+        date: "December 2025 - April 2026",
+        points: [
+          "Developed a Wi-Fi 6 customized Scan Radio that operates in management-only mode for scanning and security enhancements",
+          "Developed Wi-Fi 7 Channel Usage element support by integrating hostapd updates for efficient reporting of channel stats",
+        ],
+      },
+      {
+        title: "Software Engineer, Associate",
+        date: "July 2024 - November 2025",
+        points: [
+          "Accelerated debugging by developing spectral analysis tools to detect and visualize energy spikes across 1000+ FFT bins",
+          "Reduced channel switch latency by 4.6% by developing a dynamic channel-config module for multi-vendor deployments",
+        ],
+      },
     ],
   },
   {
